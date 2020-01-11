@@ -1,0 +1,26 @@
+{
+  "name": "node-crash-course-kaitonggao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/node-crash-course-kaitonggao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/node-crash-course-kaitonggao/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/node-crash-course-kaitonggao#readme"
+}

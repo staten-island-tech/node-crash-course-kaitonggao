@@ -1,0 +1,13 @@
+// npm install will install all modules (node_modules file) if you move to another file
+
+// npm install <list all dependencies here> 
+(-D = --save-dev)
+(-S = --save)
+
+
+// added scripts into package.json
+
+  "start": "node index",
+    "dev": "nodemon index" 
+
+// if you do npm run dev nodemon continously runs the command node index
