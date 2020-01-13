@@ -20,4 +20,4 @@ logger.on('message', (data) => console.log(`Called Listerner`, data));
 logger.log('Hello World!');
 logger.log('Hello!');
 
-// data is linked with an id and a messaage
+// data is logged (linked) with an id and a messaage

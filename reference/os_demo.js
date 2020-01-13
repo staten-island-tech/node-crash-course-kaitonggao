@@ -1,21 +1,23 @@
+// INFORMATION ABOUT OPERATING SYSTEM
+
 const os = require('os');
 
-//Platform
+//Platform -> win32
 console.log(os.platform());
 
-//CPU Arch
+//CPU Arch -> x64
 console.log(os.arch());
 
-//CPU Core Info
+//CPU Core Info -> Object <Intel>
 console.log(os.cpus());
 
-// Free memory
+// Free memory -> 350 something?
 console.log(os.freemem());
 
-//Total memory
+//Total memory -> 845
 console.log(os.totalmem());
 
-//Home dir
+//Home dir 
 console.log(os.homedir());
 
 //Uptime
